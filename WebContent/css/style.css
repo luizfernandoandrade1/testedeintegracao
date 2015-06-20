@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#page {
+	width: 1034px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	padding: 5px 10px;
+}
+
+#top {
+	width: 1024px;
+	min-height: 50px;
+}
+
+#topLeft {
+	float: left;
+	width: 700px;
+	height: 380px;
+	text-align: center;
+	overflow: auto;
+	border: 1px solid #000;
+}
+
+#topRight {
+	float: left;
+	width: 320px;
+	height: 380px;
+	overflow: auto;
+}
+
+#center {
+	width: 650px;
+	margin-top: 10px;
+}
+
+#topLeft img {
+	min-width: 300px;
+	min-height: 300px;
+}
+
+#topRight li {
+	border: 1px solid #000;
+	height: 30px;
+	min-width: 100px;
+}
+
+#esconderTabelaClasse,#classeIntegrar label , #tblClasses td{
+	cursor: pointer;
+	disable: disable;
+}
+
+#tblClasses {
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+
+#tblClasses tr td {
+	border: 1px solid #000;
+}
+
+#tblClasses tr th {
+	border-collapse: collapse;
+	border: 1px solid #000;
+	background: #cbcbcb;
+}
+
+
+#listaFilha,#listaPai {
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#listaFilha {
+	margin-left: 10px;
+}
+#classeIntegrada{
+	font: bold;
+	color: #fff;
+	margin: 10px auto;
+	
+}
+#melhorOpcao{
+	
+	margin-top: 5px;
+}
+#listaPai ul {
+	list-style-type: none;
+}
+
+#listaPai li {
+	background-color: #cef1fd;
+}
+
+#listaFilha li {
+	background-color: green;
+}
+
+
+#page h1,#footer {
+	text-align: center;
+}
+
+#lstXML input {
+	margin-left: 15px;
+}
+#lstXML label {
+cursor: pointer;
+}
+.title {
+	border-bottom: 3px solid #000;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.excluiClasse {
+	text-decoration: line-through;
+	color: red;
+	cursor: move;
+}
+
+#lstXML{
+	width: 200px;
+	height: 200px;
+	overflow-y: auto;
+	border: 1px solid;
+	float: left;
+	clear: right; 
+}
+#ok{
+	 
+	
+}
+#usarTabela{
+	float: left;
+	clear: right; 
+}
+#formUplod{
+	margin: 0 auto;
+	width: 1024px;
+	
+}
+#voltar{
+	float: left;
+}
+#pontuacao{
+	float: right;
+	
+}

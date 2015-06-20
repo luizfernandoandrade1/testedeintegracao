@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<XMI xmi.version = "1.1" xmlns:UML="href://org.omg/UML/1.3" timestamp = "Thu Feb 02 18:10:44 2012">
+<XMI.header>
+  <XMI.documentation>
+    <XMI.owner></XMI.owner>
+    <XMI.contact></XMI.contact>
+    <XMI.exporter>StarUML.XMI-Addin</XMI.exporter>
+    <XMI.exporterVersion>1.0</XMI.exporterVersion>
+    <XMI.notice></XMI.notice>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name = "UML" xmi.version = "1.3"/>
+ </XMI.header>
+<XMI.content>
+<UML:Model xmi.id="UMLProject.1">
+  <UML:Namespace.ownedElement>
+    <UML:Model xmi.id="UMLModel.2" name="Use Case Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.28" name="useCaseModel" extendedElement="UMLModel.2"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.3" name="Analysis Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.29" name="analysisModel" extendedElement="UMLModel.3"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.4" name="Design Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id="UMLClass.5" name="aluno" visibility="public" isSpecification="false" namespace="UMLModel.4" clientDependency="UMLDependency.11 UMLDependency.13" isRoot="false" isLeaf="false" isAbstract="false" specialization="UMLGeneralization.8 UMLGeneralization.9" participant="UMLAssociationEnd.16" isActive="false"/>
+        <UML:Class xmi.id="UMLClass.6" name="alunoFaculdade" visibility="public" isSpecification="false" namespace="UMLModel.4" isRoot="false" isLeaf="false" isAbstract="false" generalization="UMLGeneralization.8" participant="UMLAssociationEnd.20" isActive="false"/>
+        <UML:Class xmi.id="UMLClass.7" name="AlunoEscola" visibility="public" isSpecification="false" namespace="UMLModel.4" isRoot="false" isLeaf="false" isAbstract="false" generalization="UMLGeneralization.9" isActive="false"/>
+        <UML:Generalization xmi.id="UMLGeneralization.8" name="" visibility="public" isSpecification="false" namespace="UMLModel.4" discriminator="" child="UMLClass.6" parent="UMLClass.5"/>
+        <UML:Generalization xmi.id="UMLGeneralization.9" name="" visibility="public" isSpecification="false" namespace="UMLModel.4" discriminator="" child="UMLClass.7" parent="UMLClass.5"/>
+        <UML:Class xmi.id="UMLClass.10" name="maticula" visibility="public" isSpecification="false" namespace="UMLModel.4" supplierDependency="UMLDependency.11" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+        <UML:Dependency xmi.id="UMLDependency.11" name="" visibility="public" isSpecification="false" namespace="UMLModel.4" client="UMLClass.5" supplier="UMLClass.10"/>
+        <UML:Class xmi.id="UMLClass.12" name="finac" visibility="public" isSpecification="false" namespace="UMLModel.4" supplierDependency="UMLDependency.13" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+        <UML:Dependency xmi.id="UMLDependency.13" name="" visibility="public" isSpecification="false" namespace="UMLModel.4" client="UMLClass.5" supplier="UMLClass.12"/>
+        <UML:Class xmi.id="UMLClass.14" name="sala" visibility="public" isSpecification="false" namespace="UMLModel.4" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.17" isActive="false"/>
+        <UML:Association xmi.id="UMLAssociation.15" name="" visibility="public" isSpecification="false" namespace="UMLModel.4">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.16" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.15" type="UMLClass.5"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.17" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="aggregate" targetScope="instance" changeability="changeable" association="UMLAssociation.15" type="UMLClass.14"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Class xmi.id="UMLClass.18" name="turma" visibility="public" isSpecification="false" namespace="UMLModel.4" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.21 UMLAssociationEnd.24" isActive="false"/>
+        <UML:Association xmi.id="UMLAssociation.19" name="" visibility="public" isSpecification="false" namespace="UMLModel.4">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.20" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.19" type="UMLClass.6"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.21" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="aggregate" targetScope="instance" changeability="changeable" association="UMLAssociation.19" type="UMLClass.18"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Class xmi.id="UMLClass.22" name="Lee, Minkyu" visibility="public" isSpecification="false" namespace="UMLModel.4" isRoot="false" isLeaf="false" isAbstract="false" participant="UMLAssociationEnd.25" isActive="false"/>
+        <UML:Association xmi.id="UMLAssociation.23" name="" visibility="public" isSpecification="false" namespace="UMLModel.4">
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.24" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable" association="UMLAssociation.23" type="UMLClass.18"/>
+            <UML:AssociationEnd xmi.id="UMLAssociationEnd.25" name="" visibility="public" isSpecification="false" isNavigable="true" ordering="unordered" aggregation="composite" targetScope="instance" changeability="changeable" association="UMLAssociation.23" type="UMLClass.22"/>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Stereotype xmi.id="X.30" name="designModel" extendedElement="UMLModel.4"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.26" name="Implementation Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.31" name="implementationModel" extendedElement="UMLModel.26"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.27" name="Deployment Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.32" name="deploymentModel" extendedElement="UMLModel.27"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+  </UML:Namespace.ownedElement>
+</UML:Model>
+</XMI.content>
+</XMI>

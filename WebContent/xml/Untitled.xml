@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFN/5rdVpN0Ovw=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAFN/vC9aY4GsbE=" name="Escola" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAFN/vD4T44sKJw=" name="Departamento" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAFN/vOpZo/bcRc=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFN/vOpZo/cPT0=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="shared" isDerived="false" isID="false" type="AAAAAAFN/vD4T44sKJw="/>
+					<ownedEnd xmi:id="AAAAAAFN/vOpZo/dPqU=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFN/vC9aY4GsbE="/>
+					<memberEnd xmi:idref="AAAAAAFN/vOpZo/cPT0="/>
+					<memberEnd xmi:idref="AAAAAAFN/vOpZo/dPqU="/>
+				</ownedMember>
+				<ownedMember xmi:id="AAAAAAFN/vQKZpGny5U=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFN/vQKZpGomD4=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFN/vD4T44sKJw="/>
+					<ownedEnd xmi:id="AAAAAAFN/vQKZpGpGkE=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFN/vEgNI5SAys="/>
+					<memberEnd xmi:idref="AAAAAAFN/vQKZpGomD4="/>
+					<memberEnd xmi:idref="AAAAAAFN/vQKZpGpGkE="/>
+				</ownedMember>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAFN/vEgNI5SAys=" name="Curso" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAFN/vE3Fo54hhQ=" name="Aluno" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAFN/vOLvo+GqdA=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFN/vOLvo+HFNk=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="shared" isDerived="false" isID="false" type="AAAAAAFN/vE3Fo54hhQ="/>
+					<ownedEnd xmi:id="AAAAAAFN/vOLvo+IRJI=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFN/vC9aY4GsbE="/>
+					<memberEnd xmi:idref="AAAAAAFN/vOLvo+HFNk="/>
+					<memberEnd xmi:idref="AAAAAAFN/vOLvo+IRJI="/>
+				</ownedMember>
+				<ownedMember xmi:id="AAAAAAFN/vP0ppEQcwQ=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAFN/vP0ppER1Fw=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFN/vE3Fo54hhQ="/>
+					<ownedEnd xmi:id="AAAAAAFN/vP0ppESGu0=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAFN/vEgNI5SAys="/>
+					<memberEnd xmi:idref="AAAAAAFN/vP0ppER1Fw="/>
+					<memberEnd xmi:idref="AAAAAAFN/vP0ppESGu0="/>
+				</ownedMember>
+			</packagedElement>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

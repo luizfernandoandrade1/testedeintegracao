@@ -1,0 +1,5 @@
+$('#sortable label').click( function(){alert(this.innerHTML)});
+
+$('#sortable').click(function () {this.removeChild(this.childNodes[0])});
+
+tabelaClasses
